@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+img.resume-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-header p {
+    margin: 2px auto;
+    text-align: right;
+}
+.bold {
+    font-weight: bold;
+}
+.small-size {
+    font-size: 13px;
+}
+.main-content {
+    border: 2px solid #CBC3E3;
+    border-radius: 30px;
+    margin: 21px 0;
+    padding: 6px 26px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+td:nth-child(2) {
+    text-align: right;
+}
+table {
+    width: 100%;
+}
